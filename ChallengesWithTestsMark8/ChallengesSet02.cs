@@ -109,7 +109,7 @@ namespace ChallengesWithTestsMark8
             if (numbers != null)
             {
 
-                return (numbers.Sum() % 2 != 0) ? true : false;
+                return (numbers.Sum() % 2 != 0 && numbers != null) ? true : false;
             }
             else
             {
