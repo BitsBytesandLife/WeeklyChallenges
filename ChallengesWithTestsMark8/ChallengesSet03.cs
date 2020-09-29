@@ -89,27 +89,12 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeAllElementsToUppercase(string[] words)
         {
-            // words.Select(u => u.ToUpper());
+
 
             for (int i = 0; i < words.Length; i++)
             {
                 words[i] = words[i].ToUpper();
             }
-
-            //foreach (var word in words)
-            //{
-            //    word.ToUpper();
-            //}
-            //words.Select(u => u.ToUpper());
-
-            //List<string> newWords = new List<string>();
-            //foreach (var item in words)
-            //{
-            //    item.ToUpper();
-            //}
-
-
-
         }
     }
 }
